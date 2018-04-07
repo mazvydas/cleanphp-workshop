@@ -53,6 +53,8 @@ class LocationController extends Controller
      */
     public function create(Request $request) : Response
     {
+
+
         $data = $request->request->all();
         
         $this->validator->validate(
